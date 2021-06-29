@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    outline: none;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+nav {
+    width: 100vw;
+}
+
+.inside-nav {
+    width: 80vw;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-logo {
+    width: 25vw;
+}
+
+.inside-div-input-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #555;
+    border-radius: 25px;
+    box-shadow: #2EE59D;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inside-div-only-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-left: 1px solid #555;
+    transition: 0.2s;
+}
+
+.inside-div-only-icon:hover {
+    background-color: #2EE59D;
+    color: #fff;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 40px;
+    padding: 5px 15px;
+    transition: 0.3s;
+    border: none;
+}
+
+input[type="text"]:focus, input[type="text"]:hover {
+    outline: none;
+}
+
+.div-menu {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-menu a {
+    transition: 0.2s;
+}
+
+.div-menu a:hover {
+    color: #2EE59D;
+}
+
+.section-home {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center ;
+}
+
+.inside-section-home {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.inside-section-home-left {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inside-section-home-right-image {
+    width: 700px;
+}
+
+.btn-saiba-mais {
+    background-color: #fff;
+    text-align: center;
+    width: 200px;
+    line-height: 50px;
+    color: #2EE59D;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #2EE59D;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+}
+
+.section-empresa {
+    width: 100vw;
+    height: 400px;
+}
+
+.inside-section-empresa {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.inside-section-empresa-left {
+    width: 40vw;
+}
+
+.inside-section-empresa-left h2 {
+    margin-bottom: 30px;
+}
+
+.inside-section-empresa-right {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+.inside-section-empresa-right img {
+    width: 400px;
+}
+
+.section-services {
+    width: 100vw;
+    height: 450px;
+    background-color: #2B2B2B;
+    
+}
+
+.inside-section-services {
+    width: 80vw;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #fff;
+    width: 18vw;
+    height: 350px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.card img {
+    width: 180px;
+}
+
+.inside-card-img-center {
+    display: flex;
+    justify-content: center;
+}
+
+.card p:first-of-type {
+    font-weight: bold;
+}
+
+.section-contacts {
+    width: 100vw;
+    margin-top: 150px;
+}
+
+.inside-section-contacts {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inside-section-contacts-left {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inside-section-contacts-left-icons {
+    display: flex;
+    width: 180px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inside-section-contacts-left-icons a img{
+    width: 40px;
+}
+
+.section-localization {
+    width: 100vw;
+    margin-top: 150px;
+}
+
+.inside-section-localization {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.inside-section-localization-top {
+    width: 80vw;
+    margin-bottom: 30px;
+}
+
+.inside-section-localization-bottom {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inside-section-localization-bottom-left {
+    display: flex;
+    width: 40vw;
+}
+
+.inside-section-localization-bottom-right {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 430px;
+    justify-content: space-between;
+}
+
+.btn-encontrar {
+    background-color: #fff;
+    text-align: center;
+    width: 200px;
+    line-height: 50px;
+    color: #2EE59D;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #2EE59D;
+}
+
+.btn-encontrar:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+}
+
+.inside-section-localization-bottom-right img {
+    width: 350px;
+    margin-bottom: -10px;
+    
+}
+
+.center-btn-encontrar {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+.center-covid {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+footer {
+    width: 100vw;
+    height: 70px;
+    background-color: #333;
+}
+
+.inside-footer {
+    width: 80vw;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-empty {
+    width: 25vw;
+}
+
+.inside-footer img {
+    width: 120px;
+}
+
+.inside-footer p {
+    color: #ccc;
+    width: 25vw;
+    text-align: right;
+    font-weight: 300;
+}
+
+.inside-card-text {
+    overflow-y: hidden;
+}

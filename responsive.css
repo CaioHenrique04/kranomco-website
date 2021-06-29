@@ -1,0 +1,200 @@
+@media screen and (max-width: 1270px) {
+    .inside-nav {
+        flex-direction: column;
+        height: 180px;
+        margin-top: 40px;
+    }
+
+    .section-home {
+        height: 80vh;
+    }
+
+    .inside-section-home {
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .inside-section-home-left {
+        width: 80vw;
+        text-align: center;
+        height: 50vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn-saiba-mais {
+        width: 400px;
+    }
+
+    .inside-section-home-right-image {
+        display: none;
+    }
+
+    .section-empresa {
+        height: 600px;
+    }
+
+    .inside-section-empresa {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inside-section-empresa-left {
+        text-align: center;
+    }
+
+    .inside-section-empresa-left p {
+        margin-bottom: 30px;
+    }
+
+    .section-services {
+        height: 900px;
+        display: flex;
+        align-items: center;
+    }
+
+    .inside-section-services {
+        flex-direction: column;
+        height: 800px;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 40vw;
+        height: 250px;
+    }
+
+    .card img {
+        max-width: 150px;
+    }
+
+    .inside-section-contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inside-section-contacts-left {
+        align-items: center;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .inside-section-contacts-right img {
+        width: 300px;
+    }
+
+    .inside-section-localization-top h2 {
+        text-align: center;
+    }
+
+    .inside-section-localization-bottom {
+        flex-direction: column;
+    }
+
+    .inside-section-localization-bottom-right {
+        text-align: center;
+    }
+
+    .btn-encontrar {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1205px) {
+    .div-menu {
+        width: 60vw;
+    }
+
+    .card {
+        width: 80vw;
+    }
+
+    .inside-section-localization-bottom-left {
+        display: flex;
+        width: 80vw;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .section-home {
+        height: 65vh;
+    }
+
+    .section-empresa {
+        height: 500px;
+    }
+
+    .section-contacts {
+        margin-top: 100px;
+    }
+
+    .section-localization {
+        margin-top: 100px;
+    }
+    
+    .inside-section-empresa-left {
+        width: 80vw;
+    }
+
+    .inside-section-contacts-left {
+        width: 90vw;
+    }
+
+    .inside-section-localization-bottom-right {
+        width: 80vw;
+        align-items: center;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .inside-nav {
+        height: 250px;
+    }
+
+    .btn-saiba-mais {
+        width: 60vw;
+    }
+    
+    .div-menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 150px;
+    }
+
+    footer {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .inside-footer {
+        flex-direction: column;
+    }
+
+    .inside-footer p {
+        width: 80vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-home {
+        height: 65vh;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .inside-section-home {
+        height: 65vh;
+        justify-content: center;
+    }
+
+    .inside-section-home-left {
+        justify-content: space-between;
+        height: 60vh;
+    }
+}
